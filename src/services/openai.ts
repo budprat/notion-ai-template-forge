@@ -1,5 +1,5 @@
 
-import { TemplateRequest, TemplateResult } from "../types";
+import { TemplateRequest, TemplateResult, TemplateStyle } from "../types";
 
 export const generateTemplate = async (request: TemplateRequest): Promise<TemplateResult> => {
   try {
