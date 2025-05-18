@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
 
-## Project info
+# Notion AI Template Forge
 
-**URL**: https://lovable.dev/projects/c5a1b3d4-87ca-456d-af06-21b6125d421f
+[![Lovable AI](https://img.shields.io/badge/Built%20with-Lovable%20AI-5D3FD3)](https://lovable.dev/projects/c5a1b3d4-87ca-456d-af06-21b6125d421f)
 
-## How can I edit this code?
+[🔗 **Live Preview**](https://lovable.dev/projects/c5a1b3d4-87ca-456d-af06-21b6125d421f)
 
-There are several ways of editing your application.
+## 📝 Description
 
-**Use Lovable**
+Notion AI Template Forge is a web application that helps you create beautiful, customized Notion templates using AI. Simply select your interest and preferred style, and the application will generate a detailed, ready-to-use template for your Notion workspace.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c5a1b3d4-87ca-456d-af06-21b6125d421f) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **AI-Powered Template Generation**: Create customized Notion templates instantly
+- **Multiple Style Options**: Choose from minimal, professional, colorful, creative, and academic styles
+- **Custom Interest Support**: Select from suggested interests or specify your own
+- **Copy-Ready Templates**: Easily copy generated templates to your clipboard
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-**Use your preferred IDE**
+## 🛠️ Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- Shadcn UI
+- Vite
 
-## How can I deploy this project?
+## 🚀 Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/c5a1b3d4-87ca-456d-af06-21b6125d421f) and click on Share -> Publish.
+### Prerequisites
 
-## Can I connect a custom domain to my Lovable project?
+- Node.js (v14.0.0 or higher)
+- npm or yarn
 
-Yes, you can!
+### Installation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-url>
+   cd notion-ai-template-forge
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 🔍 How It Works
+
+1. **Choose your interest**: Select from popular categories or specify your own custom interest
+2. **Pick your style**: Choose from minimal, professional, colorful, creative, or academic styles
+3. **Get your template**: Instantly receive your AI-generated template ready to use in Notion
+
+## 🔮 Future Enhancements
+
+- User accounts for saving favorite templates
+- More template styles and customization options
+- Direct export to Notion
+- Template sharing functionality
+- Gallery of example templates
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+
+- Built with [Lovable AI](https://lovable.dev)
+- UI components from [Shadcn UI](https://ui.shadcn.com/)
+- Icons from [Lucide React](https://lucide.dev/)
+
